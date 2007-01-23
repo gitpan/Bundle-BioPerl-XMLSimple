@@ -1,0 +1,28 @@
+Bundle::BioPerl::XMLSimple - A bundle for the correct installation of
+                             XML::Simple for Bioperl
+
+Version 1.00  - 2007-01-22
+
+This is not a module that people generally need to download
+and install locally. This Bundle is meant to live on CPAN so
+that people can use CPAN.pm magic to automagically download and
+install modules.
+
+The syntax for doing this would be something like:
+$ perl -MCPAN -e 'install Bundle::BioPerl::XMLSimple'
+
+However if you really want to...
+
+To install this Bundle file locally:
+
+perl Makefile.PL
+make install
+
+Then, for a full list of the modules which this bundle
+installs, use:
+
+perldoc Bundle::BioPerl::XMLSimple
+
+Finally, to install the modules which the bundle lists:
+
+perl -MCPAN -e 'install Bundle::BioPerl::XMLSimple'

@@ -1,0 +1,6 @@
+Makefile.PL
+MANIFEST
+README
+t/Bundle-BioPerl-XMLSimple.t
+lib/Bundle/BioPerl/XMLSimple.pm
+META.yml                                 Module meta-data (added by MakeMaker)
